@@ -562,8 +562,8 @@ video {
   margin-top: 1rem;
 }
 
-.mr-20 {
-  margin-right: 5rem;
+.mr-24 {
+  margin-right: 6rem;
 }
 
 .inline-block {
@@ -582,12 +582,12 @@ video {
   height: 80%;
 }
 
-.h-\[45\%\] {
-  height: 45%;
+.h-\[39\%\] {
+  height: 39%;
 }
 
-.h-\[55\%\] {
-  height: 55%;
+.h-\[64\%\] {
+  height: 64%;
 }
 
 .w-full {
@@ -608,6 +608,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-md {
@@ -736,8 +740,20 @@ html, body {
 }
 
 @media (min-width: 768px) {
+  .md\:mr-20 {
+    margin-right: 5rem;
+  }
+
   .md\:h-\[59\%\] {
     height: 59%;
+  }
+
+  .md\:h-\[45\%\] {
+    height: 45%;
+  }
+
+  .md\:h-\[55\%\] {
+    height: 55%;
   }
 
   .md\:w-\[44\%\] {
